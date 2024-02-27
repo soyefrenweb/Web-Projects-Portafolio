@@ -1,0 +1,55 @@
+/* Estilos para el contenedor principal del blog */
+.ae-grid {
+    display: grid; /* Utiliza una disposición de cuadrícula para el contenedor */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Define columnas automáticas que se ajustan según el contenido */
+    gap: 20px; /* Agrega espacio entre las columnas y filas */
+    justify-content: center; /* Centra las columnas horizontalmente en el contenedor */
+  }
+
+/* Estilos para la descripción del autor */
+.ae-grid__item p.description {
+    text-align: left; /* Ajusta la alineación del texto según tus necesidades */
+    padding-left: 20px; /* Ajusta el relleno izquierdo según tus necesidades */
+    padding-right: 20px; /* Ajusta el relleno derecho según tus necesidades */
+    margin-bottom: 20px; /* Ajusta el margen inferior según tus necesidades */
+  }
+
+/* Estilos para el cargo del autor */
+.ae-grid__item p.cargo{
+    font-weight: bold;
+    margin-bottom: 10px; /* Ajusta el margen inferior según tus necesidades */
+  }
+
+/* Estilos para el nombre del autor */
+.ae-grid__item h5{
+    font-size: 1.5em; /* Ajusta el tamaño de la fuente según tus necesidades */
+    margin-top: 10px; /* Ajusta el margen superior según tus necesidades */
+  }
+
+/* Estilos para la imagen del autor */
+.ae-grid__item img {
+    max-width: 100%; /* Ajusta el ancho máximo de la imagen según tus necesidades */
+    height: auto; /* Garantiza la proporción de la imagen */
+    margin-bottom: 10px; /* Ajusta el margen inferior según tus necesidades */
+  }
+
+/* Estilos para la descripción del autor */
+.ae-grid__item {
+    max-width: 400px; /* Ajusta el ancho máximo según tus necesidades */
+    margin-bottom: 20px; /* Ajusta el margen inferior según tus necesidades */
+    padding: 0 20px; /* Ajusta el relleno según tus necesidades */
+    text-align: center; /* Ajusta la alineación del texto según tus necesidades */
+  }
+
+/* Estilos para el enlace de Instagram */
+.ae-grid__item a {
+    font-weight: bold;
+    text-decoration: underline;
+    /* Ajusta los estilos adicionales según tus necesidades */
+  }
+
+  /* Estilos para la imagen de Instagram dentro del enlace */
+.ae-grid__item a img {
+    vertical-align: middle; /* Alinea la imagen verticalmente con el texto */
+    margin-right: 5px; /* Ajusta el margen derecho según tus necesidades */
+  }

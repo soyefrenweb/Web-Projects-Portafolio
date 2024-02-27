@@ -1,0 +1,18 @@
+{
+    "titulo": "Efren Portafolio Web",
+    "email": "fierroeften@gmail.com",
+    "nombre_corto": "Efren",
+    "pagina_autor": "https://sooy-efren.com",
+    "facebook": "https://www.facebook.com/efren.fierro",
+    "twitter": "https://www.twitter.com/sooy_efren25",
+    "instagram": "https://www.instagram.com/sooy_efren",
+    "equipo_trabajo":[
+        {
+            "frase": "¡Hola, soy Efren! 👋 Como un apasionado programador Jr inmerso en el emocionante mundo del desarrollo de software, me encuentro en constante búsqueda de conocimientos y nuevas tecnologías. Mi foco principal reside en el desarrollo web, donde encuentro fascinación en crear experiencias digitales sorprendentes. A través de mi blog, compartiré mi viaje de aprendizaje, descubrimientos y desafíos en el vasto universo del desarrollo. A medida que me preparo para enfrentar nuevos horizontes tecnológicos, mi objetivo final es crecer y evolucionar hacia el rol de un programador sénior destacado. ¡Acompáñame en esta emocionante travesía hacia el dominio del código y la creación de soluciones innovadoras!",
+            "instagram": "https://www.instagram.com/sooy_efren",
+            "nombre": "Efren A. Sandoval F.",
+            "subtitulo": "Jr Developer",
+            "url": "https://firebasestorage.googleapis.com/v0/b/angular-seweb.appspot.com/o/IMG_6600.jpg?alt=media&token=d4b30682-2ff3-4502-987c-6b085575d490"
+        }       
+    ]
+}
