@@ -16,13 +16,16 @@ export class ItemComponent implements OnInit{
 
   // id: string;
   public producto!: ProductDescripcion;
+  id?: string;
 
   constructor( private route: ActivatedRoute,
-               public productoService: ProductosService ){}
+               public productoService: ProductosService ){
+                  // this.id = '';
+               }
 
   ngOnInit(): void {
 
-    
+
 
      this.route.params.subscribe( parametros => {
      console.log(parametros['id'])
@@ -32,6 +35,7 @@ export class ItemComponent implements OnInit{
           .subscribe( parametros => {
             this.productoService.getContetProduct(parametros['id'])
                 .subscribe( (prod: ProductDescripcion) => {
+                  this.id = parametros['id'];
                   this.producto = prod;
                   console.log(this.producto);
                   console.log(this.producto.categoria);
